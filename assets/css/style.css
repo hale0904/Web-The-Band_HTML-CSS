@@ -169,7 +169,7 @@ html {
 
 #content .content-section {
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -248,7 +248,6 @@ html {
 
 .place-list {
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 .place-img {
@@ -432,8 +431,36 @@ html {
     border: none;
 }
 
-#footer {
+.map-section img{
+    width: 100%;
+}
 
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .social-list {
+    font-size: 24px;
+}
+
+#footer .social-list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyRight a:hover,
+#footer .social-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyRight{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyRight a{
+    color: rgba(0, 0, 0, 0.6);
 }
 
 @keyframes modalFadeIn {
